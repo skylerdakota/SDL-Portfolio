@@ -6,6 +6,7 @@ import Card from "../components/Card";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Form from "../components/Form";
+import Footer from "../components/Footer"
 
 function Contact() {
   return (
@@ -60,6 +61,8 @@ function Contact() {
           </Card>
         </Container>
       </Main>
+      <Footer>
+      </Footer>
     </div>
   );
 }

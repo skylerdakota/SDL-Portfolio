@@ -5,8 +5,9 @@ import Col from "../components/Col";
 import Card from "../components/Card";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
 
-function Index() {
+function About() {
   return (
     <div>
       <Header>
@@ -42,8 +43,10 @@ function Index() {
           </Card>
         </Container>
       </Main>
+      <Footer>
+      </Footer>
     </div>
   );
 }
 
-export default Index;
+export default About;

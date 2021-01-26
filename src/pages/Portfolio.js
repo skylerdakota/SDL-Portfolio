@@ -5,6 +5,7 @@ import Col from "../components/Col";
 import Card from "../components/Card";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
 
 function Portfolio() {
   return (
@@ -77,6 +78,8 @@ function Portfolio() {
           </Card>
         </Container>
       </Main>
+      <Footer>
+      </Footer>
     </div>
   );
 }
