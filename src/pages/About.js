@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -11,10 +12,8 @@ function About() {
   return (
     <div>
       <Header>
-        <Navbar>
-        </Navbar>
+        <Navbar/>
       </Header>
-      <Main>
         <Container>
           <Row/>
           <Col/>
@@ -30,7 +29,7 @@ function About() {
                 <Link href="assets/LawtonTechResume.pdf">Resumé</Link>
               </Col>
               <Col size="md-6">
-              <img> src="assets/images/skyler.jpg" alt="Skyler Dakota"</img>
+              <img src="assets/images/skyler.jpg" alt="Skyler Dakota"/>
               </Col>
               <Col size="md-6">
                 <p>
@@ -42,9 +41,7 @@ function About() {
             </Row>
           </Card>
         </Container>
-      </Main>
-      <Footer>
-      </Footer>
+      <Footer/>
     </div>
   );
 }

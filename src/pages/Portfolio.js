@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -11,10 +12,8 @@ function Portfolio() {
   return (
     <div>
       <Header>
-        <Navbar>
-        </Navbar>
+        <Navbar/>
       </Header>
-      <Main>
         <Container>
           <Row />
           <Col />
@@ -37,7 +36,7 @@ function Portfolio() {
                     GitHub Repo
                   </Link>
                 </Col>
-                <img>src="assets/images/personalitypupquiz.png" alt="Gentrification Sucks" class=".img-fluid. max-width: 100%; height: auto;"</img>
+                <img src="assets/images/personalitypupquiz.png" alt="Gentrification Sucks" class=".img-fluid. max-width: 100%; height: auto;"/>
               </Col>
               <Col>
                 <Col size="md-3">
@@ -56,7 +55,7 @@ function Portfolio() {
                   GitHub Repo
                   </Link>
                 </Col>
-                <img>src="assets/images/eataburger.png" alt="Eat-a-Burger"  class=".img-fluid. max-width: 100%; height: auto;"</img>
+                <img src="assets/images/eataburger.png" alt="Eat-a-Burger"  class=".img-fluid. max-width: 100%; height: auto;"/>
               </Col>
               <Col>
                 <Col size="md-3">
@@ -68,9 +67,14 @@ function Portfolio() {
                   </Link>
                 </Col>
                 <Col size="md-3">
-                  <Link>style="color: #6ea7d2;" href="https://github.com/nicolas-tomlinsonstjuste/Gentrification-Sucks" GitHub Repo</Link>
+                  <Link
+                  style="color: #6ea7d2;" 
+                  href="https://github.com/nicolas-tomlinsonstjuste/Gentrification-Sucks" 
+                  >
+                  GitHub Repo 
+                  </Link>
                 </Col>
-                <img>src="assets/images/gentrificationsucks.png" alt="Gentrification Sucks"  class=".img-fluid. max-width: 100%; height: auto;"</img>
+                <img src="assets/images/gentrificationsucks.png" alt="Gentrification Sucks"  class=".img-fluid. max-width: 100%; height: auto;"/>
               </Col>
               <Col>
                 <Col size="md-3">
@@ -88,7 +92,7 @@ function Portfolio() {
                   >
                   GitHub Repo</Link>
                 </Col>
-                <img>src="assets/images/scheduler.png" alt="Workday Scheduler"  class=".img-fluid. max-width: 100%; height: auto;"</img>
+                <img src="assets/images/scheduler.png" alt="Workday Scheduler"  class=".img-fluid. max-width: 100%; height: auto;"/>
               </Col>
               <Col>
                 <Col size="md-3">
@@ -106,7 +110,7 @@ function Portfolio() {
                   >
                   GitHub Repo</Link>
                 </Col>
-                <img>src="assets/images/passwordgenerator.png" alt="Password Generator"  class=".img-fluid. max-width: 100%; height: auto;"</img>
+                <img src="assets/images/passwordgenerator.png" alt="Password Generator"  class=".img-fluid. max-width: 100%; height: auto;"/>
               </Col>
               <Col>
                 <Col size="md-3">
@@ -125,14 +129,12 @@ function Portfolio() {
                   GitHub Repo
                   </Link>
                 </Col>
-                <img>src="assets/images/eataburger.png" alt="Workday Scheduler"  class=".img-fluid. max-width: 100%; height: auto;"</img>
+                <img src="assets/images/eataburger.png" alt="Workday Scheduler"  class=".img-fluid. max-width: 100%; height: auto;"/>
               </Col>
             </Row>
           </Card>
         </Container>
-      </Main>
-      <Footer>
-      </Footer>
+      <Footer/>
     </div>
   );
 }

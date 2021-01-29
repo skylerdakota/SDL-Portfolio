@@ -1,21 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Card from "../components/Card";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-import Form from "../components/Form";
+// import Form from "../components/Form";
 import Footer from "../components/Footer"
 
 function Contact() {
   return (
     <div>
       <Header>
-        <Navbar>
-        </Navbar>
+        <Navbar/>
       </Header>
-      <Main>
         <Container>
           <Row/>
           <Col/>
@@ -28,7 +27,7 @@ function Contact() {
                 <p className="col s3" style="color: #6ea7d2;">914-330-3029</p>
               </Col>
             </Row>
-            <Form>
+            {/* <Form>
               <Row size="m-3">
                 <Col>
                     <p><small className="card-text">First Name</small></p>
@@ -54,15 +53,19 @@ function Contact() {
               </Row>
               <Row size="m-3">
                 <Col>
-                <link> href="#" className="btn" style="background-color: #aac9e0;" Submit</link>
+                  <Link
+                  href="#" 
+                  className="btn" 
+                  style="background-color: #aac9e0;" 
+                  >
+                  Submit
+                  </Link>
                 </Col>
               </Row>
-            </Form>
+            </Form> */}
           </Card>
         </Container>
-      </Main>
-      <Footer>
-      </Footer>
+      <Footer/>
     </div>
   );
 }
