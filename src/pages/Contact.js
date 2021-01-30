@@ -11,12 +11,13 @@ import "./style.css";
 function Contact() {
   return (
     <div>
-      <Header>
-      </Header>
         <Container>
           <Row/>
           <Col/>
           <Card>
+          <Header style={{color: "#6ea7d2"}}>
+            <h3>Contact</h3>
+          </Header>
             <Row>
               <Col size="md-3">
                 <p className="col s3">skylerdakota@gmail.com</p>               
@@ -52,7 +53,7 @@ function Contact() {
               <Row size="m-3">
                 <Col>
                   <Link
-                  href="#" 
+                  to="#" 
                   className="btn" 
                   style={{color: "#aac9e0"}} 
                   >

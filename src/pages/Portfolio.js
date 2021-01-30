@@ -10,12 +10,13 @@ import "./style.css";
 function Portfolio() {
   return (
     <div>
-      <Header>
-      </Header>
         <Container>
           <Row />
           <Col />
           <Card>
+          <Header style={{color: "#6ea7d2"}}>
+            <h3>Portfolio</h3>
+          </Header>
             <Row>
               <Col>
               <Row>
@@ -31,7 +32,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                     style={{color: "#6ea7d2"}}
-                    href="https://github.com/oxfordblucher/Project-2-Untitled"
+                    to="https://github.com/oxfordblucher/Project-2-Untitled"
                   >
                     GitHub Repo
                   </Link>
@@ -44,7 +45,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                     style={{color: "#6ea7d2"}}
-                    href="https://skylerdakota.github.io/Eat-a-Burger/"
+                    to="https://skylerdakota.github.io/Eat-a-Burger/"
                   >
                     Eat-a-Burger
                     </Link>
@@ -52,7 +53,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://github.com/skylerdakota/Eat-a-Burger" 
+                  to="https://github.com/skylerdakota/Eat-a-Burger" 
                   >
                   GitHub Repo
                   </Link>
@@ -65,7 +66,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://nicolas-tomlinsonstjuste.github.io/Gentrification-Sucks/"
+                  to="https://nicolas-tomlinsonstjuste.github.io/Gentrification-Sucks/"
                   >
                   Gentrification Sucks
                   </Link>
@@ -73,7 +74,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://github.com/nicolas-tomlinsonstjuste/Gentrification-Sucks" 
+                  to="https://github.com/nicolas-tomlinsonstjuste/Gentrification-Sucks" 
                   >
                   GitHub Repo 
                   </Link>
@@ -86,7 +87,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://skylerdakota.github.io/Work-Day-Scheduler/" 
+                  to="https://skylerdakota.github.io/Work-Day-Scheduler/" 
                   >
                   Workday Scheduler
                   </Link>
@@ -94,7 +95,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://github.com/skylerdakota/Work-Day-Scheduler" 
+                  to="https://github.com/skylerdakota/Work-Day-Scheduler" 
                   >
                   GitHub Repo</Link>
                 </Col>
@@ -106,7 +107,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://skylerdakota.github.io/Password-Generator/" 
+                  to="https://skylerdakota.github.io/Password-Generator/" 
                   >
                   Password Generator
                   </Link>
@@ -114,7 +115,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://github.com/skylerdakota/Password-Generator" 
+                  to="https://github.com/skylerdakota/Password-Generator" 
                   >
                   GitHub Repo</Link>
                 </Col>
@@ -126,7 +127,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}}
-                  href="https://drive.google.com/file/d/1apEu5VemyZsXn0xMmWjGmszI2r7c1d-H/preview" 
+                  to="https://drive.google.com/file/d/1apEu5VemyZsXn0xMmWjGmszI2r7c1d-H/preview" 
                   >
                   Team Roster Generator
                   </Link>
@@ -134,7 +135,7 @@ function Portfolio() {
                 <Col size="md-3">
                   <Link
                   style={{color: "#6ea7d2"}} 
-                  href="https://github.com/skylerdakota/Team-Roster-Generator" 
+                  to="https://github.com/skylerdakota/Team-Roster-Generator" 
                   >
                   GitHub Repo
                   </Link>

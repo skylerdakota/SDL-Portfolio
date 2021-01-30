@@ -48,3 +48,8 @@ img{
 .description{
     padding-bottom: 20px;
 }
+
+.card{
+    align-content: center;
+    margin-bottom: 30px;
+}

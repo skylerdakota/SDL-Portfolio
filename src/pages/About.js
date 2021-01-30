@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Card from "../components/Card";
+import Header from "../components/Header";
 import "./style.css";
 
 function About() {
@@ -13,17 +14,20 @@ function About() {
         <row />
         <col />
         <Card>
+          <Header style={{color: "#6ea7d2"}}>
+            <h3>About</h3>
+          </Header>
           <Row>
             <Col size="md-3">
-              <Link href="https://www.linkedin.com/in/skyler-dakota-lawton/"
+              <Link to="https://www.linkedin.com/in/skyler-dakota-lawton/"
               style={{color: "#6ea7d2"}}>LinkedIn</Link>
             </Col>
             <Col size="md-3">
-              <Link href="https://github.com/skylerdakota/"
+              <Link to="https://github.com/skylerdakota/"
               style={{color: "#6ea7d2"}}>GitHub</Link>
             </Col>
             <Col size="md-3">
-              <Link href="./assets/Lawton Tech Resume.pdf"
+              <Link to="./assets/Lawton Tech Resume.pdf"
               style={{color: "#6ea7d2"}}>Resumé</Link>
             </Col>
           </Row>
