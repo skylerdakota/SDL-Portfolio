@@ -5,15 +5,13 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Card from "../components/Card";
 import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-// import Form from "../components/Form";
-import Footer from "../components/Footer"
+import Form from "../components/Form";
+import "./style.css";
 
 function Contact() {
   return (
     <div>
       <Header>
-        <Navbar/>
       </Header>
         <Container>
           <Row/>
@@ -21,27 +19,27 @@ function Contact() {
           <Card>
             <Row>
               <Col size="md-3">
-                <p className="col s3" style="color: #6ea7d2;">skylerdakota@gmail.com</p>               
+                <p className="col s3">skylerdakota@gmail.com</p>               
               </Col>
               <Col size="md-3">
-                <p className="col s3" style="color: #6ea7d2;">914-330-3029</p>
+                <p className="col s3">914-330-3029</p>
               </Col>
             </Row>
-            {/* <Form>
+            <Form>
               <Row size="m-3">
                 <Col>
                     <p><small className="card-text">First Name</small></p>
-                    <input> type="text" className="form-control" placeholder="First name"</input>
+                    <input type="text" className="form-control" placeholder="First name"/>
                 </Col>
                 <Col>
                     <p><small className="card-text">Last Name</small></p>
-                    <input> type="text" className="form-control" placeholder="Last name"</input>
+                    <input type="text" className="form-control" placeholder="Last name"/>
                 </Col>
               </Row>
               <Row size="m-3">
                 <Col>
                     <p><small className="card-text">Email</small></p>
-                    <input> type="text" className="form-control" placeholder="Email"</input>
+                    <input type="text" className="form-control" placeholder="Email"/>
                 </Col>
               </Row>
               <Row size="m-3">
@@ -56,16 +54,15 @@ function Contact() {
                   <Link
                   href="#" 
                   className="btn" 
-                  style="background-color: #aac9e0;" 
+                  style={{color: "#aac9e0"}} 
                   >
                   Submit
                   </Link>
                 </Col>
               </Row>
-            </Form> */}
+            </Form>
           </Card>
         </Container>
-      <Footer/>
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import Nav from "react-bootstrap/Navbar"
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-light font-weight-light">
+    <Nav className="navbar sticky-top navbar-light font-weight-light">
       <Link className="navbar-brand" to="/">
         SKYLER DAKOTA LAWTON
       </Link>
@@ -44,7 +45,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-    </nav>
+    </Nav>
   );
 }
 

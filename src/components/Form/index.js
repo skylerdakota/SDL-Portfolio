@@ -2,8 +2,8 @@ import React from "react";
 
 
 //****update header return
-function Header(props) {
-  return <div className="row">{props.children}</div>;
+function Form(props) {
+  return <div className="form">{props.children}</div>;
 }
 
-export default Header;
+export default Form;
