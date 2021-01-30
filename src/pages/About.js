@@ -11,29 +11,32 @@ function About() {
    return (
     <div>
       <Container>
-        <row />
-        <col />
+        <Row>
+        <Col>
         <Card>
           <Header style={{color: "#6ea7d2"}}>
             <h3>About</h3>
           </Header>
           <Row>
             <Col size="md-3">
-              <Link to="https://www.linkedin.com/in/skyler-dakota-lawton/"
-              style={{color: "#6ea7d2"}}>LinkedIn</Link>
+              <a href="https://www.linkedin.com/in/skyler-dakota-lawton/"
+              target="_blank"
+              style={{color: "#6ea7d2"}}>LinkedIn</a>
             </Col>
             <Col size="md-3">
-              <Link to="https://github.com/skylerdakota/"
-              style={{color: "#6ea7d2"}}>GitHub</Link>
+              <a href="https://github.com/skylerdakota/"
+              target="_blank"
+              style={{color: "#6ea7d2"}}>GitHub</a>
             </Col>
             <Col size="md-3">
-              <Link to="./assets/Lawton Tech Resume.pdf"
-              style={{color: "#6ea7d2"}}>Resumé</Link>
+              <a href="./assets/Lawton Tech Resume.pdf"
+              target="_blank"
+              style={{color: "#6ea7d2"}}>Resumé</a>
             </Col>
           </Row>
             <Row>
-              <Col size="md-6" className="image">
-                <img src="./assets/images/skyler.jpg" alt="Skyler Dakota" />
+              <Col size="md-6">
+                <img src="./assets/images/skyler.jpg" alt="Skyler Dakota"  className="image"/>
               </Col>
             </Row>
             <Row>
@@ -46,6 +49,8 @@ function About() {
               </Col>
             </Row>
         </Card>
+        </Col>
+       </Row>
       </Container>
     </div>
   );
